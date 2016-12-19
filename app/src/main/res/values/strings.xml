@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FoodTracker</string>
+    <string name="action_settings">Settings</string>
+    <string name="grams">Grams</string>
+    <string-array name="navigationlist">
+        <item>Today</item>
+        <item>History</item>
+        <item>Progress</item>
+        <item>Settings</item>
+    </string-array>
+    <string-array name="units">
+        <item>KiloGrams</item>
+        <item>Grams</item>
+        <item>Gallons</item>
+        <item>Litres</item>
+        <item>MilliLitres</item>
+        <item>Pcs</item>
+        <item>Nos</item>
+    </string-array>
+    <string name="drawer_open">Open Navigation Drawer</string>
+    <string name="drawer_close">Close Navigation Drawer</string>
+
+    <!-- Nav Drawer Menu Items -->
+
+</resources>

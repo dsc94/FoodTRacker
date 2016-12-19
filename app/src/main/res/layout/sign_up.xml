@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3d3d5c">
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:hint="Name.."
+        android:id="@+id/signupnameid"
+        android:layout_marginLeft="100dp"
+        android:textColorHint="#ffffff"
+        android:layout_marginTop="45dp"/>
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:hint="Email ID"
+        android:textColorHint="#ffffff"
+        android:layout_marginLeft="100dp"
+        android:id="@+id/signupemailid"
+        android:layout_below="@+id/signupnameid"
+        android:layout_marginTop="40dp"/>
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:id="@+id/signuppasswordid"
+        android:layout_below="@+id/signupemailid"
+        android:layout_marginLeft="100dp"
+        android:hint="Password.."
+        android:layout_marginTop="40dp"
+        android:textColorHint="#ffffff"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:layout_marginLeft="140dp"
+        android:id="@+id/signupbuttonid"
+        android:layout_below="@+id/signuppasswordid"
+        android:layout_marginTop="40dp"/>
+</RelativeLayout>
